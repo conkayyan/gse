@@ -14,7 +14,6 @@ import (
 	"strings"
 )
 
-// //go:embed data/dict/dictionary.txt
 // var dataDict string
 
 // NewEmbed return new gse segmenter by embed dictionary
