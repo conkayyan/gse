@@ -4,22 +4,17 @@
 package gse
 
 import (
-	_ "embed"
 	"testing"
 
 	"github.com/vcaesar/tt"
 )
 
-//go:embed testdata/test_en_dict3.txt
 var testDict string
 
-//go:embed testdata/test_en.txt
 var testEn string
 
-//go:embed testdata/zh/test_zh_dict2.txt
 var testDict2 string
 
-//go:embed testdata/stop.txt
 var testStop string
 
 func TestLoadDictEmbed(t *testing.T) {
